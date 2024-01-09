@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Fira+Sans:ital,wght@1,100&family=Merriweather:ital,wght@0,400;1,900&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: DM Sans;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstHalf {
+  /* border: 2px solid red; */
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items:center; */
+}
+
+.innerFirstHalf {
+  height: 50vh;
+  /* background-color: rgb(99, 99, 180); */
+  margin: 50px 0px 0px 200px;
+}
+
+.headingRPS {
+  font-size: 30px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 40px;
+  color: #9d4edd;
+}
+
+.headingRPS p {
+  font-size: 17px;
+  position: absolute;
+  left: 37px;
+}
+
+.scoresBy {
+  height: 25vh;
+  width: 25vw;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.you {
+  margin-top: 15px;
+  color: #9d4edd;
+}
+
+.dividerBetweenScoresBy {
+  margin-top: 70px;
+  height: 12vh;
+  border: 2px solid rgba(128, 128, 128, 0.371);
+  position: relative;
+  left: 20px;
+}
+
+.oponent {
+  margin-top: 15px;
+  color: #9d4edd;
+}
+
+.scores {
+  height: 60px;
+  width: 100%;
+  /* background-color: greenyellow; */
+  position: relative;
+  bottom: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.yourScore {
+  position: relative;
+  right: 45px;
+  font-size: x-large;
+  color: #9d4edd;
+}
+
+.opponentScore {
+  position: relative;
+  left: 8px;
+  font-size: x-large;
+  color: #9d4edd;
+}
+
+.whoWon {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  width: 25vw;
+  height: 80px;
+  /* border: 2px solid red; */
+  /* bottom: 22px;
+    left: 110px; */
+  color: #603f7b;
+  /* font-weight: 900; */
+}
+
+.innerWhoWon h1 {
+  font-size: xx-large;
+  /* font-weight: 900; */
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 2px solid yellowgreen; */
+  height: 14vh;
+  width: 25vw;
+  margin-top: 20px;
+}
+
+.rock button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  margin: 20px;
+}
+
+.rock img {
+  width: 80px;
+  height: 80px;
+}
+
+.paper button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  margin: 20px;
+}
+
+.paper img {
+  width: 80px;
+  height: 80px;
+}
+
+.scissors button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  margin: 20px;
+}
+
+.scissors img {
+  width: 80px;
+  height: 80px;
+}
+
+.WrittenBelowImg {
+  height: 5vh;
+  width: 25vw;
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+}
+
+.rockWritten {
+  /* margin-right: 28px; */
+  position: relative;
+  right: 5px;
+  color: #9d4edd;
+}
+
+.paperWritten {
+  position: relative;
+  left: 19px;
+  color: #9d4edd;
+}
+
+.scissorsWritten {
+  position: relative;
+  left: 23px;
+  color: #9d4edd;
+}
+
+.resetBtn {
+  height: 110px;
+  /* background-color: rgb(39, 39, 197); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetBtn button {
+  width: 80px;
+  height: 30px;
+  background-color: #9d4edd;
+  color: white;
+  margin: 50px 0px 0px 0px;
+  border: none;
+}
+
+.secondHalf {
+  /* border: 2px solid darkblue; */
+  width: 50%;
+  height: 100vh;
+}
+
+.descriptionAboutGame p {
+  color: grey;
+}
+
+.descriptionAboutGame li {
+  color: grey;
+  padding: 5px 0;
+}
+
+.howToPlay ul {
+  padding: 5px 0 0 50px;
+}
+
+.descriptionAboutGame h4 {
+  font-size: large;
+  padding: 20px 0;
+  color: #9d4edd;
+}
